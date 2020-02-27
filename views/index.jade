@@ -1,0 +1,28 @@
+html
+    title My index Page
+    link(rel="stylesheet", href="/css/mystyle.css",type="text/css")
+    script(src="/scripts/myscripts.js")
+    body
+        div
+            h1 Ocean's Eleven
+            ul
+                li Comedy
+                li Thriller
+            p.
+                Danny Ocean and his eleven accomplices plan to rob
+                three Las Vegas casinos simultaneously.
+            
+        div(class="rosa-pic", id="rosa")
+            h1(class="movie-title") Pokemon
+            img(src="/images/rosa.jpg", class="rosa-poster", width ="250px", height = "250px")
+            ul(class="genre-list")
+                li Pokemon
+                li White2
+        div
+             ul
+                - for (var i=1; i<=5; i++) {
+                li Hello #{i}
+                - }
+        p.redText This is a red Line
+        input(type="button",onclick="Hi()",value="Click Here")
+            

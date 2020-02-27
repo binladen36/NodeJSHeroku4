@@ -1,0 +1,25 @@
+{
+  "name": "nodejsheroku4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "myserver.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node myserver.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binladen36/NodeJSHeroku4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/binladen36/NodeJSHeroku4/issues"
+  },
+  "homepage": "https://github.com/binladen36/NodeJSHeroku4#readme"
+}
