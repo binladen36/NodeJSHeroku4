@@ -8,8 +8,8 @@ var publicDir = require('path').join(__dirname,'/public');
 app.use(express.static(publicDir));
 
 //su dung saveForm
-var bodyParser= require('body-Parser');
-app.use(bodyParser.urlencoded({extended: true}));
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
 app.get('/',function(req,res)
 {
